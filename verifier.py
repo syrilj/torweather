@@ -19,4 +19,4 @@ def verify(sec, msg):
 
 if __name__ == '__main__':
     assert verify(generate('12345'), '12345')
-    print 'tests passed'
+    print('tests passed')
